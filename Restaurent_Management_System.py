@@ -5,7 +5,7 @@ class Bill_App:
         self.root.geometry("1450x750+0+0")
         self.root.title("Restaurent Billing System")
         bgcolor = "#0D3AE1"
-        title = Label(self.root,text="Sunny Da Dhaba",bd=12,relief=GROOVE,bg=bgcolor,fg="white",font=("times new roman",30,"bold"),pady=2).pack(fill=X)
+        title = Label(self.root,text="Restaurent Name",bd=12,relief=GROOVE,bg=bgcolor,fg="white",font=("times new roman",30,"bold"),pady=2).pack(fill=X)
 
         # Customer Details        
         F1 = LabelFrame(self.root,bd=10,relief=GROOVE,text="Customer Details",bg="#770B89",font=("times new roman",20,"bold"))
